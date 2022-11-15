@@ -61,6 +61,77 @@ body{
     padding: 17px;
     border-radius: 10px;
 }
+input{
+    display: none;
+}
+label{
+    z-index: 2;
+    position: absolute;
+    top: 20px; right: 10px;
+    cursor: pointer;
+    display: none;
+}
+label span{
+    display: block;
+    height: 3px;
+    width: 30px;
+    background: var(--aqua);
+    margin: 5px 0;
+    transition: .3s;
+}
+#toogle:checked ~ label span{
+    background: black;
+}
+#toggle:checked ~ .navbar {
+    left: 0;
+}
+@media (max-width: 978px){
+    .navbar .head h1{
+        margin-top: 60px;
+        font-size: 50px;
+    }
+    .navbar .head h1 span{
+        color: black;
+    }
+    label{
+        display: block;
+    }
+    .navbar{
+        height: 100vh;
+        width: 100vw;
+        position: fixed;
+        top: 0; left: 100%;
+        background: var(--aqua);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .navbar nav ul{
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-flow: column wrap;
+    }
+    .navbar nav ul li{
+        margin: 10px 0;
+        font-size: 40px;
+    }
+    .navbar nav ul li a{
+        color: rgb(2, 2, 2);
+        text-shadow: #03fe85 0 4px;
+        text-shadow: #04f7f7 0 -4px;
+    }
+    .navbar nav ul li a:hover{
+        background: #fff;
+        border-radius: 20px;
+        padding: 0 50px;
+        transition: .3s;
+    }
+
+}
+
 
 .info{
     margin-top: 45px;
