@@ -75,7 +75,7 @@ label span{
     display: block;
     height: 3px;
     width: 30px;
-    background: var(--aqua);
+    background: #fff;
     margin: 5px 0;
     transition: .3s;
 }
@@ -143,6 +143,7 @@ label span{
     flex-direction: column;
 }
 .info h1{
+    margin: 0 20px;
     cursor: pointer;
     font-size: 100px;
     font-weight: bold;
