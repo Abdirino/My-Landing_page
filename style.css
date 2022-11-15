@@ -88,7 +88,7 @@ label span{
 }
 @media (max-width: 978px){
     .navbar .head h1{
-        margin-top: 60px;
+        margin-top: 160px;
         font-size: 50px;
     }
     .navbar .head h1 span{
@@ -150,6 +150,13 @@ label span{
     color: var(--aqua);
     text-shadow: #03fe85 0 4px;
     text-shadow: #04f7f7 0 -4px;
+}
+.info p{
+    font-size: 25px;
+    font-weight: bold;
+    text-shadow: #03fe85 0 1px;
+    text-shadow: #04f7f7 0 -1px;
+    margin: 10px 40px;
 }
 .info a{
     padding: 20px 30px;
