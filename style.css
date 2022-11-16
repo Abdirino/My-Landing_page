@@ -10,7 +10,7 @@
 body{
     background: linear-gradient(#233a4b, #041931);
     background-repeat: no-repeat;
-    height: 100%;
+    /* height: 100%; */
     /* height: 100vh; */
     /* background-size: 100% 140px;
     background-position: 0 510px; */
@@ -158,7 +158,6 @@ label span{
     font-weight: bold;
     text-shadow: #03fe85 0 1px;
     text-shadow: #04f7f7 0 -1px;
-    margin: 10px 20px;
 }
 .info a{
     padding: 20px 30px;
